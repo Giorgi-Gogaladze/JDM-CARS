@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authorization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="wholeBody">
+    
+<header>
+    <h1><a id="logoi" href="index.html"><img id="logo" src="pictures/file.png" alt="logo"></a></h1>
+    <nav class="navbar flex">
+        <ul class="nav-links flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="contact.html">Contact Us</a></li> 
+            <li><a href="registration.html">Registration</a></li> 
+        </ul>
+    </nav>
+    <div class="right-block">
+        <button id="btn">
+            <img id="dayNightIcon" src="pictures/sun.png" alt="Day Icon">
+        </button>
+    </div>
+</header>
+
+<section class="authorization">
+    <h2>Sign In</h2>
+
+    <form action="login.php" method="post">
+        <div class="reg">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Username" name="username">
+        </div>
+
+        <div class="reg">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password" name="password">
+        </div>
+
+        <div class="toReg">
+            <button type="submit" name="login">Sign In</button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <div class="footerClass container">
+        <h3>Contact Us</h3>
+        <p>Contact us on social media: Follow us on Facebook, Twitter, and Instagram for the latest updates and news. For any inquiries, feel free to email us at:</p>
+        <ul class="socialMedias">
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+        </ul>
+    </div>
+    <div class="copy container">
+        <p>Copyright &copy; 2024 Fancy Schmancy</p>
+    </div>
+</footer>
+
+</body>
+</html>
